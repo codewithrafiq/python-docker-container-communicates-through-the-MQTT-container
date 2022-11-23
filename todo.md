@@ -1,0 +1,3 @@
+- sudo docker run -p 0.0.0.0:6379:6379 redis/redis-stack
+- docker exec <container_id> sh -c "hostname --ip-address"
+- sudo docker inspect 89e6f6952ea5  | grep IPAddress
